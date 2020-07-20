@@ -19,7 +19,7 @@ class Settings():
         self.ship_limit = 3
         
         # 子弹设置
-        self.bullet_width = 1200
+        self.bullet_width = 3
         self.bullet_height = 15
         self.bullet_color = (60, 60, 60)
         self.bullets_allowed = 10
@@ -30,7 +30,7 @@ class Settings():
         self.score_scale = 1.5
 
         # 以什么样的速度加快游戏节奏
-        self.speedup_scale = 2.1
+        self.speedup_scale = 1.3
 
         # 最高得分
         self.high_score = 0
